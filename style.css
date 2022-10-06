@@ -1,0 +1,34 @@
+* {
+  margin: 0 ;
+  padding: 0;
+}
+
+.container {
+  /* background-color: blueviolet;
+    justify-content: center;
+    align-items: center; */
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: aqua;
+  transform: skewY(15deg);
+}
+.child1 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(90, 36, 36);
+  background-color: blue;
+  transform: skewX(15deg);
+}
+.child2 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(59, 4, 4);
+  background-color: coral;
+  transform: skewY(15deg);
+}
